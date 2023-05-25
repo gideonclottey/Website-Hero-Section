@@ -1,0 +1,38 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/assets/images/hero.jpg');
+    background-size: cover;
+}
+
+.hero-content{
+    text-align: center;
+}
+
+.hero-heaading{
+    font-size:4rem;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    transition: backround-color 0.3s;
+
+}
+.cta-button:hover{
+    background-color: #009926;
+}
+
+/* Media query section */
+@media (max-width:768px){
+    .hero{
+        flex-direction: column;
+    }
+}
